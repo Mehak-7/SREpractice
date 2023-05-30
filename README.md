@@ -20,7 +20,7 @@ The script can be customized to collect different metrics and send alerts to dif
 3. Set up your config.ini file to contain [SMTP] information for host, port, username and password (The code is already set up to read information from this file)
 3. Run the python script with correct email address to send and recieve using "***python main.py***"
 
-<img width="929" alt="Email sent while testing" src="https://github.com/Mehak-7/SREpractice/assets/48163284/1dbd32cf-f688-480b-ae00-15e36e32162e">
+![Alt text](https://github.com/Mehak-7/SREpractice/assets/48163284/1dbd32cf-f688-480b-ae00-15e36e32162e)
 
 *In this example, there is an alert sent when the memory threshold is crossed, i.e. goes above 50. An email is sent to the specified email address through the sender email address(also specified) with the correct subject and other information as provided. For this case, the timeout was set to 10 seconds.*
 
